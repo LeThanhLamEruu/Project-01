@@ -71,6 +71,8 @@ a {
     position: relative;
     background: #e6f0ff;
     height: calc(100vh - 90px);
+    border-bottom: 3px solid #0F1B4C;
+
 }
 
 .navbar {
@@ -137,7 +139,9 @@ a {
 }
 
 .hero .desc {
-    margin-top: 30px;
+    display: inline-block;
+    /* margin-right: 20px; */
+    margin-top: 12px;
     font-weight: 400;
     font-size: 1.8rem;
     line-height: 1.78;
@@ -155,31 +159,43 @@ a {
     object-fit: cover;
     right: calc((100vw - 1110px) / 2 - 100px);
     bottom: 0;
-    height: 580px;
+    height: 530px;
 }
 
 /* ******** Cilents ********* */
 .clients {
-    margin-top: 79px;
+    margin: 50px auto 0;
+    background-color: #E6F0FF;
     padding: 43px 0 64px;
-    border: 3px solid #f5fafe;
+    width: 1110px;
+    max-width: calc(100% - 48px);
+    border-radius: 20px;
+    border: 3px solid #0F1B4C;
+
 }
 
 .clients .row-desc {
     margin-top: 23px;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 .clients .row {
+    margin-right: 32px;
+    margin-left: 32px;
     display: flex;
     justify-content: space-between;
 }
 
 .clients .desc {
+    margin-top: -16px;
     font-weight: 500;
     font-size: 1.6;
     line-height: 1.25;
     color: #7d8589;
 }
+
+
 
 .clients .images {
     display: flex;
@@ -192,7 +208,7 @@ a {
     display: flex;
     align-items: center;
     height: 90px;
-    padding: 0 42px;
+    padding: 0 42px 0 32px;
     border-radius: 12px;
 }
 
@@ -201,9 +217,7 @@ a {
 }
 
 .guides {
-    margin-top: 40px;
     padding: 93px 79px;
-    border: 3px solid #f5fafe;
 }
 
 .guides .sub-title {
@@ -287,6 +301,10 @@ a {
     margin-top: 41px;
     padding: 110px 0;
     background: #f5fafe;
+    border-top: 3px solid #0F1B4C;
+    border-bottom: 3px solid #0F1B4C;
+
+
 }
 
 .featured .sub-title {
@@ -383,7 +401,6 @@ a {
 .stats {
     margin-top: 75px;
     padding: 50px 0;
-    border: 3px solid #f5fafe;
 }
 
 .stars .content {
@@ -582,10 +599,16 @@ a {
     bottom: 0;
     right: 221px;
 }
+
 /* Footer */
 .footer {
     margin-top: 55px;
     padding: 50px 0 58px;
+    background-color: #E6F0FF;
+    border-top: 3px solid #0F1B4C;
+    border-bottom: 3px solid #0F1B4C;
+
+
 }
 
 .footer .row {
@@ -620,6 +643,7 @@ a {
     color: #7a7a7e;
     white-space: nowrap;
 }
+
 .footer .desc {
     white-space: normal;
     font-weight: 400;
@@ -646,13 +670,14 @@ a {
 .footer .social-link:not(:first-child) {
     margin-left: 16px;
 }
+
 .footer .social-link:hover img {
     border: 1px solid #ebebeb;
     border-radius: 3px;
 }
 
 .footer .row-bottom {
-    margin-top: 81px;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
